@@ -23,6 +23,9 @@
 		69714DED197CEEA900588777 /* CCPlaneActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69714DE9197CEEA900588777 /* CCPlaneActivityIndicatorView.m */; };
 		69714DEE197CEEA900588777 /* CCRotatingCurveActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69714DEB197CEEA900588777 /* CCRotatingCurveActivityIndicatorView.m */; };
 		69714DF1197CEEB700588777 /* CCMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69714DF0197CEEB700588777 /* CCMainViewController.m */; };
+		69714DF6197CFF4D00588777 /* screenshot1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 69714DF3197CFF4D00588777 /* screenshot1.gif */; };
+		69714DF7197CFF4D00588777 /* screenshot2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 69714DF4197CFF4D00588777 /* screenshot2.gif */; };
+		69714DF8197CFF4D00588777 /* screenshot3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 69714DF5197CFF4D00588777 /* screenshot3.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +64,9 @@
 		69714DEB197CEEA900588777 /* CCRotatingCurveActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCRotatingCurveActivityIndicatorView.m; sourceTree = "<group>"; };
 		69714DEF197CEEB700588777 /* CCMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMainViewController.h; sourceTree = "<group>"; };
 		69714DF0197CEEB700588777 /* CCMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMainViewController.m; sourceTree = "<group>"; };
+		69714DF3197CFF4D00588777 /* screenshot1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = screenshot1.gif; sourceTree = "<group>"; };
+		69714DF4197CFF4D00588777 /* screenshot2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = screenshot2.gif; sourceTree = "<group>"; };
+		69714DF5197CFF4D00588777 /* screenshot3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = screenshot3.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +98,7 @@
 			children = (
 				69714DE4197CEEA900588777 /* ActivityIndicatorView */,
 				69714DBB197CEE5A00588777 /* CCActivityIndicatorViewDemo */,
+				69714DF2197CFF4D00588777 /* screenshot */,
 				69714DD4197CEE5A00588777 /* CCActivityIndicatorViewDemoTests */,
 				69714DB4197CEE5A00588777 /* Frameworks */,
 				69714DB3197CEE5A00588777 /* Products */,
@@ -174,6 +181,16 @@
 			path = ActivityIndicatorView;
 			sourceTree = "<group>";
 		};
+		69714DF2197CFF4D00588777 /* screenshot */ = {
+			isa = PBXGroup;
+			children = (
+				69714DF3197CFF4D00588777 /* screenshot1.gif */,
+				69714DF4197CFF4D00588777 /* screenshot2.gif */,
+				69714DF5197CFF4D00588777 /* screenshot3.gif */,
+			);
+			path = screenshot;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -249,8 +266,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69714DF6197CFF4D00588777 /* screenshot1.gif in Resources */,
 				69714DC0197CEE5A00588777 /* InfoPlist.strings in Resources */,
 				69714DC8197CEE5A00588777 /* Images.xcassets in Resources */,
+				69714DF7197CFF4D00588777 /* screenshot2.gif in Resources */,
+				69714DF8197CFF4D00588777 /* screenshot3.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
